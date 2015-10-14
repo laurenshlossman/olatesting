@@ -1,0 +1,14 @@
+# Topnav single links
+# if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  subcategories:
+    - title: Back
+      external_url: https://www.photorank.me/admin/
+      audience: external
+      platform: all
+      product: all
+      version: all
+
+
+

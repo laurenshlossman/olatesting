@@ -1,0 +1,64 @@
+end: '</a>'
+
+
+titlepage:
+  title: "Title Page"
+  url: "titlepage.html"
+  link: "<a href='titlepage.html'>Title Page</a>"
+
+
+tocpage:
+  title: "Table of Contents"
+  url: "tocpage.html"
+  link: "<a href='tocpage.html'>Table of Contents</a>"
+
+
+
+
+index:
+  title: "Introduction"
+  url: "index.html"
+  link: "<a href='index.html'>Introduction</a>"
+
+
+doc_getting_started:
+  title: "Getting started with this theme"
+  url: "doc_getting_started.html"
+  link: "<a href='doc_getting_started.html'>Getting started with this theme</a>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

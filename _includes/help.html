@@ -1,0 +1,16 @@
+<!-- Help function -->
+<script>
+function SendLinkByMail(href) {
+var subject= "Help Request (from {{site.site_title}})";
+var body = "I was looking at the {{page.title}} page and still need some help: ";
+body += window.location.href;
+body += "";
+var uri = "mailto:{{site.help_email}}?subject=";
+uri += encodeURIComponent(subject);
+uri += "&body=";
+uri += encodeURIComponent(body);
+window.location.href = uri;
+}
+</script>
+
+<li><a href="javascript:(function()%7BSendLinkByMail()%3B%7D)()%3B" target="_blank"><i class="fa fa-envelope-o"></i> Help</a></li>
